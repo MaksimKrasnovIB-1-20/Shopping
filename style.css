@@ -21,11 +21,11 @@ a:hover {
 
 .header {
     background-color: #F9F6F1;
-    height: 100vh;
+    height: 100%;
 }
 
 .container {
-    max-width: 1110px;
+    max-width: 1108px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
@@ -145,4 +145,87 @@ a:hover {
 .scroll span:hover {
     background-color: #D7B399;
     cursor: pointer;
+}
+
+.free__ship {
+    background-color: #212121;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.p {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.p span {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.p:last-child {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.models__inner-span {
+    display: flex;
+}
+
+.mw {
+    width: 50%;
+    background-color: #F9F6F1;
+    padding-left: 150px;
+}
+
+.mw div,
+.mw div {
+    position: relative;
+    left: 150px;
+    top: 5px;
+}
+
+.mw + .mw {
+    background-color: #f4f4f4;
+}
+
+
+
+.models__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.shirt {
+    position: relative;
+    top: 195px;
+    left: 35px;
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.new__models {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.all__models {
+    display: flex;
+    justify-content: center;
+}
+
+.button__all__models {
+    margin: 100px 100px;
 }
