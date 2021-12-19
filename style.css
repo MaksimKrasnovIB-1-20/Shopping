@@ -217,32 +217,101 @@ footer a:hover {
     line-height: 26px;
 }
 
+
+/* позор начинается здесь */
+
+
 .models__inner-span {
     display: flex;
 }
 
-.mw {
+.man {
     width: 50%;
     background-color: #F9F6F1;
-    padding-left: 150px;
 }
 
-.mw div,
-.mw div {
-    position: relative;
-    /* left: ; */
-    top: 5px;
-}
-
-.mw + .mw {
+.woman {
+    width: 50%;
     background-color: #f4f4f4;
 }
 
+.man__title {
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 29px;
+
+    position: relative;
+    left: 250px;
+}
+
+.man__title span {
+    font-weight: 500;
+}
+
+.man__text {
+    position: relative;
+    left: 250px;
+}
+
+.button__man {
+    position: relative;
+    left: 245px;
+    top: 20px;
+}
+
+.woman__title {
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 29px;
+
+    position: relative;
+    left: 20px;
+}
+
+.woman__title span {
+    font-weight: 500;
+}
+
+.woman__text {
+    position: relative;
+    left: 20px;
+}
+
+.button__woman {
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
 
 .models__inner {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.models__inner-item {
+    position: relative;
+    top: -24px;
+}
+
+.models__inner-item2 {
+    position: relative;
+    top: -50px;
+}
+
+.m__i-i {
+    position: relative;
+    left: 2px;
+}
+
+.m__i_i {
+    position: relative;
+    left: 1px;
+}
+
+.m__i__i {
+    position: relative;
+    right: 1px;
 }
 
 .shirt {
@@ -251,6 +320,22 @@ footer a:hover {
     left: 35px;
     margin: 0;
 }
+
+.m__img {
+    position: relative;
+    left: 550px;
+    top: 2px;
+}
+
+.w__img {
+    position: relative;
+    left: 360px;
+    top: 2px;
+}
+
+
+/* позор заканчивается здесь */
+
 
 .title {
     text-align: center;
