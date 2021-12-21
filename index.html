@@ -5,12 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css"> 
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__inner">
+                <div class="burger__menu">
+                    <button class="menu__btn">
+                        <span></span>
+                    </button>
+                    <div class="menu__list">
+                        <a class="menu__link">Для мужчин</a>
+                        <a class="menu__link">Для женщин</a>
+                        <a class="menu__link">Для детей</a>
+                        <a class="menu__link">Оплата</a>
+                        <a class="menu__link">Доставка</a>
+                        <a class="menu__link">Корзина</a>
+                    </div>
+                </div>
+                <div class="logo__mobile">
+                    <img src="./images/frame.svg">
+                    <p class="menu__logo">
+                        THE LOOP
+                    </p>
+                </div>  
                 <div class="menu">
                     <div class="menu__box">
                         <a class="menu__box-item">
@@ -58,23 +78,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="dropdowns">
-                <div class="dropdown">
-                    <a>Футболки</a>
-                    <a>Кроссовки</a>
-                    <a>Спортивные<br>костюмы</a>
-                </div>
-                <div class="dropdown">
-                    <a>Футболки</a>
-                    <a>Кроссовки</a>
-                    <a>Спортивные<br>костюмы</a>
-                </div>
-                <div class="dropdown">
-                    <a>Футболки</a>
-                    <a>Кроссовки</a>
-                    <a>Спортивные<br>костюмы</a>           
-                </div>
-            </div> -->
             <div class="content">
                 <div class="content__inner">
                     <div class="content__item">
@@ -102,27 +105,30 @@
             <p class="p">Сделайте заказ и получите подарок!</p>
         </section>
         <section class="models">
-
-
-<!-- попытка №2 -->
             <div class="models__inner">
                 <div class="empty__left"></div>
                     <div class="container__models">
                         <div class="models__left">
-                            <div class="models__inner-box">
-                                <p class="models__title"><span>МУЖСКАЯ </span>КОЛЛЕКЦИЯ</p>
-                                <p class="models__title-inner">Обувь, полуверы, костюмы</p>
-                                <img class="button" src="./images/arrow__mw.svg">
+                            <div class="models__left-inner">
+                                <div class="models__inner-box">
+                                    <p class="models__man-title"><span>МУЖСКАЯ </span>КОЛЛЕКЦИЯ</p>
+                                    <p class="models__man-title-inner">Обувь, полуверы, костюмы</p>
+                                    <div class="button__man"><img class="button" src="./images/arrow__mw.svg"></div>
+                                </div>
+                                <img class="models__img" src="./images/man.png">
+                                <div class="models__man-img-mobile"><img src="./images/man.png"></div>
                             </div>
-                            <img class="models__img" src="./images/man.png"> 
                         </div>
                         <div class="models__right">
-                            <div class="models__inner-box">
-                                <p class="models__title"><span>ЖЕНСКАЯ </span>КОЛЛЕКЦИЯ</p>
-                                <p class="models__title-inner">Обувь, полуверы, костюмы</p>
-                                <img class="button" src="./images/arrow__mw.svg">
+                            <div class="models__right-inner">
+                                <div class="models__inner-box">
+                                    <p class="models__woman-title"><span>ЖЕНСКАЯ </span>КОЛЛЕКЦИЯ</p>
+                                    <p class="models__woman-title-inner">Обувь, полуверы, костюмы</p>
+                                    <div class="button__woman"><img class="button" src="./images/arrow__mw.svg"></div>
+                                </div>
+                                <img class="models__img" src="./images/wonam.png">
+                                <div class="models__woman-img-mobile"><img src="./images/wonam.png"></div>
                             </div>
-                            <img class="models__img" src="./images/wonam.png">
                         </div>
                     </div>
                 <div class="empty__right"></div>
@@ -130,81 +136,18 @@
             <div class="models__inner-shirts">
                 <div class="container">
                     <div class="shirts">
-                        <img src="./images/shirt-grey.png">
-                        <img src="./images/shirt-cream.png">
-                        <img src="./images/shirt-grey.png">
-                        <img src="./images/shirt-cream.png">
-                        <img src="./images/shirt-cream.png">
-                        <img src="./images/shirt-grey.png">
-                        <img src="./images/shirt-cream.png">
-                        <img src="./images/shirt-grey.png">
+                        <img class="img1" src="./images/shirt-grey.png">
+                        <img class="img2" src="./images/shirt-cream.png">
+                        <img class="img3" src="./images/shirt-grey.png">
+                        <img class="img4" src="./images/shirt-cream.png">
+                        <img class="img5" src="./images/shirt-cream.png">
+                        <img class="img6" src="./images/shirt-grey.png">
+                        <img class="img7" src="./images/shirt-cream.png">
+                        <img class="img8" src="./images/shirt-grey.png">
+
                     </div>
                 </div>            
             </div>
-<!-- попытка №2 -->
-
-
-<!-- позор начинается здесь -->
-
-
-                <!-- <div class="models__inner-span">
-                    <div class="man">
-                        <p class="man__title"><span>МУЖСКАЯ </span>КОЛЛЕКЦИЯ</p>
-                        <p class="man__text">Обувь, полуверы, костюмы</p>
-                        <button class="button button__man">
-                            <img src="./images/arrow__mw.svg" alt="">
-                        </button>
-                        <div class="m__img"><img src="./images/man.png" alt=""></div>
-                    </div>
-                    <div class="woman">
-                        <p class="woman__title"><span>ЖЕНСКАЯ </span>КОЛЛЕКЦИЯ</p>
-                        <p class="woman__text">Обувь, полуверы, костюмы</p>
-                        <button class="button button__woman">
-                            <img src="./images/arrow__mw.svg" alt="">
-                        </button>
-                        <div class="w__img"><img src="./images/wonam.png" alt=""></div>
-                    </div>
-                </div>
-                <div class="models__inner">
-                    <div class="models__inner-item m__i-i">
-                        <p class="shirt">ФУТБОЛКИ</p>
-                    <img src="./images/shirt.png" alt="">
-                    </div>
-                    <div class="models__inner-item m__i_i">
-                        <p class="shirt">ФУТБОЛКИ</p>
-                    <img src="./images/shirt.png" alt="">
-                    </div>
-                    <div class="models__inner-item">
-                        <p class="shirt">ФУТБОЛКИ</p>
-                    <img src="./images/shirt.png" alt="">
-                    </div>
-                    <div class="models__inner-item m__i__i">
-                        <p class="shirt">ФУТБОЛКИ</p>
-                    <img src="./images/shirt.png" alt="">
-                    </div>
-
-                    <div class="models__inner-item2 m__i-i">
-                        <p class="shirt">ФУТБОЛКИ</p>
-                    <img src="./images/shirt.png" alt="">
-                    </div>
-                    <div class="models__inner-item2 m__i_i">
-                        <p class="shirt">ФУТБОЛКИ</p>
-                    <img src="./images/shirt.png" alt="">
-                    </div>
-                    <div class="models__inner-item2">
-                        <p class="shirt">ФУТБОЛКИ</p>
-                    <img src="./images/shirt.png" alt="">
-                    </div>
-                    <div class="models__inner-item2 m__i__i">
-                        <p class="shirt">ФУТБОЛКИ</p>
-                    <img src="./images/shirt.png" alt="">
-                    </div> 
-                </div> -->
-
-
-<!-- позор заканчивается здесь -->
-
-
                 <div class="container">
                     <h1 class="title">НОВЫЕ МОДЕЛИ</h1>
                     <div class="new__models">
@@ -229,7 +172,7 @@
                 </div>
             </div>
         </section>
-        <section class="gifts">
+         <section class="gifts">
                 <p>ПОЛУЧАЙТЕ СКИДКИ И ПОДАРКИ</p>
                 <div class="form__subscribe">
                     <form class="form">
@@ -274,7 +217,7 @@
                         </p>
                     </div>
                     <div class="footer__inner-text">
-                        <p class="footer__text-s">Основные ссылки</p>
+                        <p class="footer__text-s footer__text-s-first">Основные ссылки</p>
                         <p><a class="footer__text-a">О компании</a></p>
                         <p><a class="footer__text-a">Каталог</a></p>
                         <p><a class="footer__text-a">Доставка</a></p>
@@ -331,8 +274,19 @@
                     <p>Copyright © 2019. Все права защищены</p>
                     <p>Политика приватности</p>
                 </div>
+                <div class="footer__copyright-button">
+                    <button class="totop">
+                        <svg version="1.1" id="Capa_1" x="0px" y="0px"width="20" height="20px" viewBox="0 0 284.929 284.929" style="enable-background:new 0 0 284.929 284.929;"xml:space="preserve">
+	                            <path d="M282.082,195.285L149.028,62.24c-1.901-1.903-4.088-2.856-6.562-2.856s-4.665,0.953-6.567,2.856L2.856,195.285C0.95,197.191,0,199.378,0,201.853c0,2.474,0.953,4.664,2.856,6.566l14.272,14.271c1.903,1.903,4.093,2.854,6.567,2.854c2.474,0,4.664-0.951,6.567-2.854l112.204-112.202l112.208,112.209c1.902,1.903,4.093,2.848,6.563,2.848c2.478,0,4.668-0.951,6.57-2.848l14.274-14.277c1.902-1.902,2.847-4.093,2.847-6.566C284.929,199.378,283.984,197.188,282.082,195.285z" fill="#D7B399"/>
+                        </svg>
+                        <p>НАВЕРХ</p> 
+                    </button>
+                </div>
             </div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
